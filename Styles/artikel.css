@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px ;
+}
+
+main .containerH {
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border: solid red; */
+}
+
+main .containerH .atas {
+    margin: 5px 0 10px 0; /*top right bottom left*/
+    display: flex;
+    gap: 5px;
+}
+
+main .containerH li a {
+    text-decoration: none;
+}
+
+main .containerH .judul-berita h1 {
+    font-size: 35px;
+    font-weight: 650;
+}
+
+main .containerH .gambar-judul img {
+    border-radius: 10px;
+}
+
+main .containerH .share p{
+    margin-top: 1.5px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+main .containerH .medsos {
+    width: 100%;
+    text-align: center;
+}
+
+main .containerH .medsos p {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+main .containerH .medsos ul {
+    list-style: none;
+    display: flex;
+    padding: 5px 0;
+    justify-items: center;
+    width: 100%;
+    align-items: center;
+    gap: 2px;
+}
+
+main .containerH .medsos li {
+    border: solid .5px;
+    /*jangan dihapus*/
+    border-radius: 50%;
+    padding: 2px;
+    align-items: center;
+    background: transparent;
+    transition: all ease-in-out .3s;
+    color: black;
+}
+
+main .containerH .medsos li:hover {
+    scale: 1.1;
+    border: solid 0.5px;
+}
+
+main .containerH .medsos .icon1:hover {
+    box-shadow: 0 0 10px .5px #bb2963;
+    background: #f09433;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+main .containerH .medsos .icon2:hover {
+    background-color: rgb(21, 21, 21);
+    box-shadow: 0 0 10px .5px rgb(21, 21, 21);
+}
+
+main .containerH .medsos .icon3:hover {
+    background-color: rgb(68, 137, 211);
+    box-shadow: 0 0 10px .5px rgb(68, 137, 211);
+}
+
+main .containerH .medsos .icon4:hover {
+    background-color: rgb(21, 21, 21);
+    box-shadow: 0 0 10px .5px rgb(21, 21, 21);
+}
+
+main .containerH .medsos li a {
+    color: black;
+}
+main #isi-berita article {
+    text-align: justify;
+}
+
+main #isi-berita article p {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+main #isi-berita article h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+main #isi-berita ol{
+    margin: 5px 0;
+}
+
+main #isi-berita ol p {
+    margin: 0;
+}
+
+main #isi-berita ul li{
+    list-style-type: disc;
+    display: list-item;
+    margin-left: 15px;
+    line-height: 1.5rem;
+}
+
+main #isi-berita li span {
+    font-weight: 600;
+}
+
+main #isi-berita figure {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+main #isi-berita figure img {
+    border-radius: 10px;
+}
+
+main .containerH .ref{
+    margin: 20px 0;
+}
+
+main .containerH .ref h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+main .containerH .ref a {
+    color: rgb(51, 86, 241);
+    font-size: 18px;
+}
+
+main .download {
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    width: 40%;
+    padding: 10px;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px black ;
+}

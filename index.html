@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth focus:scroll-auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tubes Jarkom</title>
+    <link rel="stylesheet" href="/Styles/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.2.0/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+    <!-- Awalan Header -->
+    <header class="sticky top-0 bg-black bg-opacity-50 backdrop-blur-lg z-10">
+        <nav class="flex justify-between items-center p-5 text-white">
+            <div class="logo text-2xl font-bold">Muhammad Bagus Burhan</div>
+            <ul class="flex gap-6">
+                <li><a href="#home" class="hover:text-blue-400">Beranda</a></li>
+                <li><a href="#artikel" class="hover:text-blue-400">Artikel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Akhir Header -->
+    <main id="home">
+        <!-- **Awalan membuat section hero** -->
+        <section id="hero">
+            <div class="containerH">
+                <h1 class="judul" >ABOUT</h1>
+                <div class="hero-img">
+                    <img src="/Asset/hero.png" alt="hero-img">
+                </div>
+                <div class="hero-desc">
+                    <h1>Hai saya, Muhammad Bagus Burhan</h1>
+                    <a href="https://telkomuniversity.ac.id" target="_blank"><img class="lTelu" src="/Asset/logo tel-U.png" alt="logo tel-U.img" width="100px" height="100px"></a>
+                    <div class="hero-uni">
+                        <!-- <p><span class="typed" data-typed-items="NIM: 607012430010, Kelas 48-02, Jaringan Komputer, D3 Sistem Informasi"></span></p> -->
+                       <div class="uni-desc">
+                        <h5>
+                            <iconify-icon icon="flowbite:caret-right-outline" width="24" height="24"></iconify-icon>
+                            NIM: 607012430010
+                        </h5>
+                        <h5>
+                            <iconify-icon icon="flowbite:caret-right-outline" width="24" height="24"></iconify-icon>                            
+                            Kelas: D3SI-48-02
+                        </h5>
+                        <h5>
+                            <iconify-icon icon="flowbite:caret-right-outline" width="24" height="24"></iconify-icon>                            
+                            Prodi: D3 Sistem Informasi
+                        </h5>
+                        <h5>
+                            <iconify-icon icon="flowbite:caret-right-outline" width="24" height="24"></iconify-icon>
+                                Mata Kuliah: Jaringan Komputer
+                        </h5>
+                       </div>
+                        <p class="things">Pada website ini akan disajikan pembahasan mengenai perangkat End-devices, intermediary network devices, cara meng-hosting website dan cara membangun sebuah web ini. Serta Website ini dibangun bertujuan untuk memenuhi tugas besar mata kuliah <strong>JARINGAN KOMPUTER</strong></p>
+                    </div>
+                    <div class="medsos">
+                        <p>Media Sosial</p>
+                        <ul>
+                        <li class="icon1"><a href="https://instagram.com/muhammadbagus08_" target="_blank"><iconify-icon icon="line-md:instagram" width="32" height="32"></iconify-icon></a></li>
+                        <li class="icon2"><a href="https://id.linkedin.com/in/muhammadbagusburhan" target="_blank"><iconify-icon icon="line-md:linkedin" width="32" height="32"></iconify-icon></a></li>
+                        <li class="icon3"><a href="https://github.com/BBguss" target="_blank"><iconify-icon icon="line-md:github" width="32" height="32"></iconify-icon></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--**Akhir dari section Hero**-->
+
+        <!--Awal Section artikel -->
+        <section id="artikel">
+            <article>
+                <h1>ARTIKEL</h1>
+                <div class=" max-w-sm max-h-fit bg-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg w-full h-48" src="/Asset/NodeDevices.png" alt="NodeDevices.img"  />
+                    </a>
+                    <div class="p-5">
+                        <a href="apa itu perangkat akhir.html">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Apa itu End devices dan intermediary network devices?</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jaringan komputer adalah sistem yang terdiri dari berbagai perangkat yang saling terhubung melalui saluran komunikasi.</p>
+                        <a href="apa itu perangkat akhir.html" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Baca Selengkapnya
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class=" max-w-sm max-h-fit bg-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg w-full h-48" src="/Asset/website-design-2.webp" alt="webdesign.img" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cara membuat website menggunakan Tailwind CSS</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Web (World Wide Web) adalah sistem informasi yang terdiri dari halaman-halaman yang saling terhubung melalui internet.</p>
+                        <a href="cara membuat website sederhana.html" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Baca Selengkapnya
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class=" max-w-sm max-h-fit bg-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b4859b3-44fb-4802-a635-3ac98618a312_3417x1740.png" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cara hosting website gratis menggunakan Github</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Baca Selengkapnya
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- Akhir Section artikel -->
+   
+    </main>
+     <footer class="bg-black bg-opacity-50 backdrop-blur-lg p-4">
+            <p class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">&copy; <a href="#" class="hover:underline">Muhammad Bagus Burhan</a>. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>

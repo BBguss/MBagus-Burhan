@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-background: linear-gradient(to bottom right, rgb(46, 60, 79), rgb(93, 102, 126));
+    --secondary-bgcolor:rgb(21, 35, 50);
+}
+
+body {
+    background: var(--primary-background);
+}
+
+#home {
+    scroll-margin-top: 80px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background:var(--primary-background);
+    color: whitesmoke;
+}
+
+/** Awalan dari section hero */
+
+#hero {
+    width: 95%;
+    margin: 0 auto;
+    height: 700px;
+    background-color: var(--primary-color);
+    padding: 30px 10px 10px 10px;
+}
+
+main .containerH{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 15px ;
+    box-shadow: 0 0 10px 1px rgb(49, 49, 49);
+    position: relative;
+    background-color: var(--secondary-bgcolor);
+    
+}
+
+.containerH .judul {
+    font-size: 28px;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.containerH .hero-desc{
+    position: relative;
+    padding-left: 15px;
+    margin: 10px 0;
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.hero-desc h1 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+
+.hero-desc .uni-desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 14px;
+}
+
+.uni-desc h5 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+}
+
+.hero-desc .uni-desc iconify-icon {
+    height: 100%;
+    margin-right: 5px;
+}
+
+.hero-desc .things {
+    font-size: 18px;
+    margin: 18px 0;
+    text-align: justify;
+    padding: 8px;
+}
+
+.hero-desc .medsos {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.hero-desc .medsos p {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.hero-desc .medsos ul{
+    list-style: none;
+    display: flex;
+    padding: 5px 0;
+    justify-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    color: #000000;
+}
+
+.hero-desc .medsos li {
+    border: solid 1px; /*jangan dihapus*/
+    border-radius: 50%;
+    padding: 5px;
+    align-items: center;
+    background: transparent;
+    transition: all ease-in-out .3s;
+}
+
+.hero-desc .medsos li:hover {
+    scale: 1.1;
+    border: solid .5px;
+}
+
+.hero-desc .medsos .icon1:hover {
+    box-shadow: 0 0 10px .5px #bb2963;
+    background: #f09433;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.hero-desc .medsos .icon2:hover{
+    background-color: rgb(10,102,194);
+    box-shadow: 0 0 10px .5px rgb(10, 102, 194);
+}
+
+.hero-desc .medsos .icon3:hover {
+    background-color: rgb(83, 39, 136);
+    box-shadow: 0 0 10px .5px rgb(83, 39, 136);
+}
+
+.hero-desc .medsos li a {
+    color: black;
+}
+
+.lTelu {
+    float: right;
+    padding: 0 10px;
+    color: white;
+}
+
+
+.medsos iconify-icon{
+    display: inline-flex;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    color: azure;
+}
+
+.containerH .hero-img {
+    justify-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(0, 4, 12), rgb(24, 95, 142), transparent);
+    box-shadow: 0 0 1rem black;
+    margin-top: 40px;
+    width: 50%;
+    height: 500px;
+}
+
+.containerH .hero-img img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 94%;
+    height: 100%;
+}
+
+/** Akhir dari section hero **/
+
+/**awal dar artikel*/
+
+#artikel {
+    width: 100%;
+    height: 700px;
+    background-color: var(--primary-color);
+    padding: 80px 10px 10px 10px;
+}
+
+#artikel h1 {
+    font-size: 28px;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#artikel article {
+    /* background: var(--primary-background); */
+    display: flex;
+    position: relative;
+    gap: 10px;
+    padding: 5px;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px rgb(49, 49, 49);
+    background-color: rgb(21, 35, 50);
+    margin: 0 auto;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+    border-radius: 15px;
+}  
+
+
+/**Akhir dari artikel  */
