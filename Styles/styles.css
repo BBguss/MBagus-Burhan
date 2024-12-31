@@ -9,12 +9,154 @@
     --secondary-bgcolor:rgb(21, 35, 50);
 }
 
+@media (max-width: 1025px) {
+     #hero .hero-img {
+        width: 50%; 
+        height: auto;
+        margin: 0 auto;
+    }
+    #hero .hero-img img {
+        width: 100%;
+        height: 50%;
+        
+    }
+    main #hero .containerH {
+        width: 95%;
+        height: 100%;
+        display: block;
+    }  
+    #hero .containerH .hero-desc {
+        padding-left: 0;
+    } 
+   .containerH .hero-desc .medsos, #hero .hero-desc .medsos p {
+        position: relative;
+        font-size: 24px;
+    }
+    
+    .containerH  .hero-desc .things, p {
+        margin: 12px 0;
+        font-size: 24px;
+    }
+    .containerH .uni-desc h5 {
+        align-items: start;
+        font-size: 26px;
+    }
+    main #artikel {
+        height: 50%;
+        margin-top: 100px;
+        padding-top: 120px;
+    }
+    main #artikel article {
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+    }
+    main #artikel h1 {
+        position: relative;;
+    }
+
+}
+
+@media (max-width: 525px) {
+    header nav ul li {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .logo {
+        font-size: 16px;
+    }
+
+    main .containerH {
+        width: 100%;
+        height: 100%;
+    }
+
+    #hero .containerH .hero-desc {
+        padding-left: 0;
+    }
+
+    .containerH .hero-desc h1 {
+        font-size: 24px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .containerH .uni-desc {
+        margin: 0 auto;
+    }
+
+    .containerH .uni-desc h5 {
+        align-items: start;
+        font-size: 14px;
+    }
+
+    .containerH  .hero-desc .things {
+        font-size: 14px;
+        margin: 8px 0;
+    }
+
+    .containerH .lTelu {
+        float: none;
+        margin: 0 auto;
+        padding: 0 10px;
+        color: white;
+    }
+
+    #hero {
+        padding-top: 0;
+    }
+
+    #hero .hero-img {
+        margin: 0 auto;
+        width: 30%; 
+        height: auto;
+        border-radius: 50%;
+    }
+
+    #hero .hero-img img {
+        width: 100%;
+        height: 30%;
+        border-radius: 50%;
+    }
+
+    #hero .hero-desc {
+        margin: 0;
+    }
+
+    containerH .hero-desc .medsos,
+    #hero .hero-desc .medsos p {
+        position: relative;
+        font-size: 18px;
+    }
+
+    main #artikel {
+        height: 100%;
+        margin-top: 50px;
+        padding-top: 130px;
+    }
+
+    main #artikel h1 {
+        position: relative;;
+    }
+
+    main #artikel article {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
 body {
     background: var(--primary-background);
 }
 
 #home {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 100px;
 }
 
 main {
@@ -27,34 +169,24 @@ main {
 /** Awalan dari section hero */
 
 #hero {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
-    height: 700px;
+    height: auto;
     background-color: var(--primary-color);
-    padding: 30px 10px 10px 10px;
+    padding: 10px;
 }
 
 main .containerH{
     display: flex;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    padding: 15px ;
     box-shadow: 0 0 10px 1px rgb(49, 49, 49);
     position: relative;
     background-color: var(--secondary-bgcolor);
     
-}
-
-.containerH .judul {
-    font-size: 28px;
-    font-weight: 700;
-    position: absolute;
-    text-align: center;
-    margin-top: 10px;
-    width: 100%;
-    top: 0;
-    left: 0;
 }
 
 .containerH .hero-desc{
@@ -63,7 +195,7 @@ main .containerH{
     margin: 10px 0;
     margin-top: 40px;
     width: 100%;
-    height: 500px;
+    
     
 }
 
@@ -184,7 +316,7 @@ main .containerH{
     text-align: center;
     background: linear-gradient(to bottom, rgb(0, 4, 12), rgb(24, 95, 142), transparent);
     box-shadow: 0 0 1rem black;
-    margin-top: 40px;
+    margin: 20px 0;
     width: 50%;
     height: 500px;
 }
@@ -205,6 +337,7 @@ main .containerH{
     height: 700px;
     background-color: var(--primary-color);
     padding: 80px 10px 10px 10px;
+    position: relative;
 }
 
 #artikel h1 {
@@ -219,7 +352,6 @@ main .containerH{
 }
 
 #artikel article {
-    /* background: var(--primary-background); */
     display: flex;
     position: relative;
     gap: 10px;

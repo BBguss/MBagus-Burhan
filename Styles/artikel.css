@@ -119,13 +119,31 @@ main #isi-berita article {
 main #isi-berita article p {
     font-size: 18px;
     text-align: justify;
-    margin-top: 10px;
+    margin-top: 5px;
+}
+
+main #isi-berita article h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 5px 0;
 }
 
 main #isi-berita article h2 {
     font-size: 20px;
     font-weight: 600;
-    padding: 5px 0;
+    margin: 5px 0;
+}
+
+main #isi-berita article h3 {
+    font-size: 18px;
+    font-weight: 550;
+    margin: 5px 0;
+}
+
+main #isi-berita article h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0;
 }
 
 main #isi-berita ol{
@@ -173,7 +191,7 @@ main .containerH .ref a {
 }
 
 main .download {
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(0, 0, 0);
     display: flex;
     width: 40%;
     padding: 10px;
@@ -181,4 +199,30 @@ main .download {
     margin: 10px auto;
     border-radius: 10px;
     box-shadow: 0px 0px 1px 1px black ;
+}
+
+main .download:hover,.download a:hover, .download .iconPdf:hover {
+    background-color: rgb(21, 20, 20);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+code {
+    color: red;
+    background-color: rgb(18, 19, 19);
+}
+
+main .containerH ul li .console {
+    color: greenyellow;
+}
+
+#isi-berita .iconbrand {
+    text-align: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+#isi-berita .iconbrand iconify-icon:hover {
+    cursor: pointer;
+    scale: 1.1;
 }
